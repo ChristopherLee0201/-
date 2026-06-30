@@ -1,0 +1,72 @@
+.lab-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #ffffff;
+  color: #111111;
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.lab-shell__safe {
+  height: calc(env(safe-area-inset-top) + 96px);
+  min-height: 96px;
+  background: #ffffff;
+}
+
+.lab-shell__header {
+  position: relative;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #111111;
+  background: #ffffff;
+}
+
+.lab-shell__title {
+  min-width: 0;
+  flex: 1;
+  padding: 0 8px;
+  color: #111111;
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lab-shell__back,
+.lab-shell__back-spacer {
+  width: 88px;
+  height: 82px;
+  flex-shrink: 0;
+}
+
+.lab-shell__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111111;
+  font-size: 52px;
+  font-weight: 300;
+  line-height: 82px;
+}
+
+.lab-shell__content {
+  flex: 1;
+  min-height: 0;
+}
+
+.lab-shell__inner {
+  min-height: calc(100vh - 116px);
+  padding: 32px 46px 56px;
+  background: #ffffff;
+}
+
+.lab-shell__inner--no-padding {
+  padding: 0;
+}

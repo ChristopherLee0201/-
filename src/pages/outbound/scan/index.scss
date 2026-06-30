@@ -1,0 +1,25 @@
+.outbound-scan-card {
+  margin-top: 28px;
+}
+
+.outbound-input {
+  font-size: 24px;
+}
+
+.outbound-samples {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.outbound-sample {
+  min-height: 62px;
+  padding: 0 18px;
+  border: 2px solid #111111;
+  border-radius: 14px;
+  color: #111111;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: left;
+}

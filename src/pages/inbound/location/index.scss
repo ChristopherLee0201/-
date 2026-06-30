@@ -1,0 +1,76 @@
+.location-impact-card {
+  margin-top: 28px;
+}
+
+.location-target {
+  padding: 16px 0;
+  border-bottom: 2px solid #111111;
+}
+
+.location-target:last-child {
+  border-bottom: 0;
+}
+
+.location-target__name,
+.location-target__code {
+  display: block;
+}
+
+.location-target__name {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.location-target__code {
+  margin-top: 4px;
+  color: #666666;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.location-option {
+  width: 100%;
+  min-height: 74px;
+  padding: 14px 18px;
+  border: 2px solid #111111;
+  border-radius: 16px;
+  color: #111111;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: left;
+}
+
+.location-option + .location-option {
+  margin-top: 14px;
+}
+
+.location-option--active {
+  background: #20398f;
+  color: #ffffff;
+}
+
+.location-card-subtitle {
+  color: #666666;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.location-preview {
+  margin-top: 22px;
+  padding: 18px;
+  border: 2px solid #111111;
+  border-radius: 18px;
+  background: #f6f6f6;
+  color: #111111;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.location-preview text {
+  display: block;
+}
+
+.location-submit {
+  width: 100%;
+}

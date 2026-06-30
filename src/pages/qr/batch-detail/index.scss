@@ -1,0 +1,49 @@
+.batch-summary {
+  margin-top: 28px;
+}
+
+.batch-progress {
+  margin: 24px 0;
+}
+
+.batch-code-list {
+  margin-top: 28px;
+}
+
+.batch-code {
+  min-height: 118px;
+  padding: 18px 20px;
+  border: 2px solid #111111;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  background: #ffffff;
+}
+
+.batch-code + .batch-code {
+  margin-top: 16px;
+}
+
+.batch-code__meta {
+  min-width: 0;
+  flex: 1;
+}
+
+.batch-code__code {
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+  word-break: break-all;
+}
+
+.batch-code__value {
+  display: block;
+  margin-top: 6px;
+  color: #666666;
+  font-size: 20px;
+  line-height: 28px;
+  word-break: break-all;
+}

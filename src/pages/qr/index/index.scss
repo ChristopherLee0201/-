@@ -1,0 +1,264 @@
+.home-page {
+  padding-top: 26px;
+}
+
+.home-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 46px 46px;
+}
+
+.home-menu-card {
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 22px 18px 18px;
+  border: 2px solid #111111;
+  border-radius: 32px;
+  background: #ffffff;
+  color: #111111;
+}
+
+.home-menu-card__divider {
+  width: 134px;
+  height: 2px;
+  margin: 22px 0 8px;
+  background: #111111;
+}
+
+.home-menu-card__title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.home-menu-card__subtitle {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.home-menu-icon {
+  width: 122px;
+  height: 112px;
+  position: relative;
+  flex-shrink: 0;
+  color: #111111;
+}
+
+.home-menu-icon view {
+  box-sizing: border-box;
+}
+
+.home-icon-home__roof {
+  position: absolute;
+  left: 26px;
+  top: 8px;
+  width: 70px;
+  height: 70px;
+  border-left: 4px solid #111111;
+  border-top: 4px solid #111111;
+  transform: rotate(45deg);
+  background: #ffffff;
+}
+
+.home-icon-home__body {
+  position: absolute;
+  left: 28px;
+  top: 38px;
+  width: 66px;
+  height: 58px;
+  border-left: 4px solid #111111;
+  border-right: 4px solid #111111;
+  border-bottom: 4px solid #111111;
+  background: #ffffff;
+}
+
+.home-icon-home__door {
+  position: absolute;
+  left: 52px;
+  top: 58px;
+  width: 22px;
+  height: 38px;
+  border: 4px solid #111111;
+  border-bottom: 0;
+  background: #ffffff;
+}
+
+.home-icon-cart__handle {
+  position: absolute;
+  left: 12px;
+  top: 18px;
+  width: 42px;
+  height: 4px;
+  background: #111111;
+}
+
+.home-icon-cart__support {
+  position: absolute;
+  left: 46px;
+  top: 18px;
+  width: 4px;
+  height: 48px;
+  background: #111111;
+  transform: skew(10deg);
+  transform-origin: top;
+}
+
+.home-icon-cart__basket {
+  position: absolute;
+  left: 42px;
+  top: 34px;
+  width: 74px;
+  height: 48px;
+  border-left: 4px solid #111111;
+  border-bottom: 4px solid #111111;
+  border-right: 4px solid #111111;
+  transform: skew(-10deg);
+  border-radius: 0 0 14px 14px;
+}
+
+.home-icon-cart__wheel {
+  position: absolute;
+  top: 96px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #111111;
+}
+
+.home-icon-cart__wheel--left {
+  left: 56px;
+}
+
+.home-icon-cart__wheel--right {
+  left: 96px;
+}
+
+.home-icon-arrow__shaft {
+  position: absolute;
+  left: 59px;
+  top: 8px;
+  width: 4px;
+  height: 74px;
+  background: #111111;
+}
+
+.home-menu-icon--upload .home-icon-arrow__shaft {
+  top: 18px;
+}
+
+.home-icon-arrow__head-line {
+  position: absolute;
+  width: 42px;
+  height: 4px;
+  background: #111111;
+}
+
+.home-icon-arrow__head-line--left {
+  left: 30px;
+  top: 56px;
+  transform: rotate(45deg);
+}
+
+.home-icon-arrow__head-line--right {
+  left: 58px;
+  top: 56px;
+  transform: rotate(-45deg);
+}
+
+.home-menu-icon--upload .home-icon-arrow__head-line--left {
+  top: 28px;
+  transform: rotate(-45deg);
+}
+
+.home-menu-icon--upload .home-icon-arrow__head-line--right {
+  top: 28px;
+  transform: rotate(45deg);
+}
+
+.home-icon-arrow__tray {
+  position: absolute;
+  left: 22px;
+  top: 74px;
+  width: 78px;
+  height: 30px;
+  border-left: 4px solid #111111;
+  border-right: 4px solid #111111;
+  border-bottom: 4px solid #111111;
+  border-radius: 0 0 12px 12px;
+}
+
+.home-icon-printer__paper {
+  position: absolute;
+  left: 34px;
+  width: 54px;
+  height: 42px;
+  border: 4px solid #111111;
+  background: #ffffff;
+}
+
+.home-icon-printer__paper--top {
+  top: 4px;
+}
+
+.home-icon-printer__body {
+  position: absolute;
+  left: 18px;
+  top: 44px;
+  width: 86px;
+  height: 54px;
+  border: 4px solid #111111;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.home-icon-printer__paper--bottom {
+  top: 72px;
+}
+
+.home-icon-scan__corner {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+}
+
+.home-icon-scan__corner--tl {
+  left: 18px;
+  top: 14px;
+  border-left: 4px solid #111111;
+  border-top: 4px solid #111111;
+}
+
+.home-icon-scan__corner--tr {
+  right: 18px;
+  top: 14px;
+  border-right: 4px solid #111111;
+  border-top: 4px solid #111111;
+}
+
+.home-icon-scan__corner--bl {
+  left: 18px;
+  bottom: 14px;
+  border-left: 4px solid #111111;
+  border-bottom: 4px solid #111111;
+}
+
+.home-icon-scan__corner--br {
+  right: 18px;
+  bottom: 14px;
+  border-right: 4px solid #111111;
+  border-bottom: 4px solid #111111;
+}
+
+.home-icon-scan__line {
+  position: absolute;
+  left: 26px;
+  top: 54px;
+  width: 70px;
+  height: 4px;
+  background: #111111;
+}

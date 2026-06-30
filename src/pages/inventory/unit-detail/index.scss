@@ -1,0 +1,46 @@
+.unit-main-card {
+  margin-top: 28px;
+}
+
+.unit-actions {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.unit-section-title {
+  margin: 40px 0 18px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.unit-record,
+.unit-log {
+  padding: 18px;
+  border: 2px solid #111111;
+  border-radius: 18px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.unit-record + .unit-record,
+.unit-log + .unit-log {
+  margin-top: 14px;
+}
+
+.unit-record text,
+.unit-log text {
+  display: block;
+}
+
+.unit-log__action {
+  font-weight: 700;
+}
+
+.unit-log__detail,
+.unit-log__time {
+  margin-top: 6px;
+  color: #666666;
+}

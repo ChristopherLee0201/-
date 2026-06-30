@@ -1,0 +1,203 @@
+.label-print-page {
+  padding-top: 58px;
+}
+
+.printer-status {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.printer-connect-button {
+  min-width: 342px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 28px;
+  background: #20398f;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.printer-connect-button__icon {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.printer-success {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #6ecc54;
+  font-size: 38px;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.printer-success__icon {
+  width: 42px;
+  height: 42px;
+  border: 4px solid #6ecc54;
+  border-radius: 999px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+
+.printer-name {
+  display: block;
+  margin-top: 32px;
+  color: #111111;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+.label-section {
+  position: relative;
+  margin-top: 56px;
+  padding: 70px 0 54px;
+  border-top: 2px solid #111111;
+}
+
+.label-section--qr {
+  margin-top: 44px;
+}
+
+.label-section__icon {
+  position: absolute;
+  left: 0;
+  top: 82px;
+  width: 108px;
+  height: 108px;
+}
+
+.label-section__icon--qr {
+  border: 8px solid #111111;
+  background: #ffffff;
+}
+
+.label-section__icon--barcode {
+  border: 8px solid #111111;
+  border-radius: 18px;
+  background: #ffffff;
+}
+
+.qr-pixel {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #111111;
+}
+
+.qr-pixel--0 { left: 12px; top: 12px; width: 22px; height: 8px; }
+.qr-pixel--1 { left: 12px; top: 28px; width: 22px; height: 8px; }
+.qr-pixel--2 { left: 44px; top: 12px; }
+.qr-pixel--3 { left: 64px; top: 12px; width: 18px; }
+.qr-pixel--4 { left: 12px; top: 44px; height: 22px; }
+.qr-pixel--5 { left: 28px; top: 44px; width: 18px; }
+.qr-pixel--6 { left: 56px; top: 36px; width: 28px; }
+.qr-pixel--7 { left: 56px; top: 54px; }
+.qr-pixel--8 { left: 72px; top: 54px; }
+.qr-pixel--9 { left: 44px; top: 70px; }
+.qr-pixel--10 { left: 60px; top: 70px; width: 22px; height: 22px; }
+.qr-pixel--11 { left: 12px; top: 78px; width: 20px; }
+.qr-pixel--12 { left: 36px; top: 84px; }
+.qr-pixel--13 { left: 84px; top: 12px; }
+.qr-pixel--14 { left: 84px; top: 28px; }
+.qr-pixel--15 { left: 72px; top: 84px; }
+.qr-pixel--16 { left: 84px; top: 72px; }
+.qr-pixel--17 { left: 20px; top: 58px; }
+.qr-pixel--18 { left: 32px; top: 66px; }
+.qr-pixel--19 { left: 48px; top: 24px; }
+.qr-pixel--20 { left: 44px; top: 50px; }
+.qr-pixel--21 { left: 80px; top: 44px; }
+.qr-pixel--22 { left: 12px; top: 88px; }
+.qr-pixel--23 { left: 52px; top: 88px; }
+.qr-pixel--24 { left: 88px; top: 88px; }
+
+.barcode-line {
+  position: absolute;
+  top: 18px;
+  width: 6px;
+  height: 38px;
+  background: #111111;
+  border-radius: 4px;
+}
+
+.barcode-line--0 { left: 18px; height: 30px; }
+.barcode-line--1 { left: 34px; }
+.barcode-line--2 { left: 50px; height: 30px; }
+.barcode-line--3 { left: 66px; }
+.barcode-line--4 { left: 82px; height: 30px; }
+
+.label-section__content {
+  padding-left: 144px;
+}
+
+.label-section__title,
+.label-section__current {
+  display: block;
+  color: #111111;
+  font-size: 42px;
+  line-height: 54px;
+}
+
+.label-section__current {
+  font-weight: 300;
+}
+
+.label-print-row {
+  margin-top: 42px;
+  display: grid;
+  grid-template-columns: 160px 1fr 126px;
+  align-items: center;
+  gap: 18px;
+}
+
+.label-print-row__label {
+  color: #111111;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.label-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.label-counter__step {
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: #d9d9d9;
+  color: #111111;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.label-counter__value {
+  min-width: 44px;
+  color: #111111;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.label-print-row__button {
+  height: 64px;
+  border-radius: 999px;
+  background: #20398f;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+}
